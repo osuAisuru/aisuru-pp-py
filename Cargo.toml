@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.15.1", features = ["macros", "extension-module"] }
-aisuru-pp = { git = "https://github.com/osuAisuru/aisuru-pp", version = "0.5.2" }
+aisuru-pp = { git = "https://github.com/osuAisuru/aisuru-pp", version = "0.5.3" }
 
 [profile.release]
 lto = true
