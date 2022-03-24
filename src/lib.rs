@@ -12,7 +12,7 @@ use pyo3::{
     types::{PyDict, PyIterator},
     PyObjectProtocol,
 };
-use rosu_pp::{
+use aisuru_pp::{
     catch::CatchPerformanceAttributes, mania::ManiaPerformanceAttributes,
     osu::OsuPerformanceAttributes, taiko::TaikoPerformanceAttributes, AnyPP, Beatmap,
     BeatmapAttributes, BeatmapExt, PerformanceAttributes,
@@ -682,7 +682,7 @@ impl Display for ScoreParams {
 }
 
 #[pymodule]
-fn rosu_pp_py(_py: Python, m: &PyModule) -> PyResult<()> {
+fn aisuru_pp_py(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<ScoreParams>()?;
     m.add_class::<Calculator>()?;
     m.add_class::<CalculateResult>()?;

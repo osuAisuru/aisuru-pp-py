@@ -3,8 +3,8 @@ requires = ["maturin>=0.12,<0.13", "setuptools", "setuptools-rust", "wheel"]
 build-backend = "maturin"
 
 [project]
-name = "rosu-pp-py"
-version = "0.5.1"
+name = "aisuru-pp-py"
+version = "0.5.2"
 requires-python = ">=3.6"
 description = "osu! difficulty and pp calculation for all modes"
 classifiers = [
@@ -16,9 +16,9 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
-packages = [{ include = "rosu_pp_py" }]
-authors = [{ name = "Max Ohn", email = "ohn.m@hotmail.de" }]
+packages = [{ include = "aisuru_pp_py" }]
+authors = [{ name = "Max Ohn", email = "ohn.m@hotmail.de" }, { name = "tsunyoku", email = "tsunyoku@gmail.com" }]
 readme = "README.md"
 license = { file = "LICENSE" }
-repository = "https://github.com/MaxOhn/rosu-pp-py"
+repository = "https://github.com/osuAisuru/aisuru-pp-py"
 keywords = ["osu", "pp", "stars", "performance", "difficulty"]
