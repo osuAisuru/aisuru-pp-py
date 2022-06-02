@@ -5,7 +5,7 @@ version = 3
 [[package]]
 name = "aisuru-pp"
 version = "0.5.5"
-source = "git+https://github.com/osuAisuru/aisuru-pp#bdb4ec3942ce50eb56023f17152746462aa76da2"
+source = "git+https://github.com/osuAisuru/aisuru-pp#ca660de674d7b381e0677afdd86ac12383f9afc3"
 
 [[package]]
 name = "aisuru-pp-py"
